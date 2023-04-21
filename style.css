@@ -93,3 +93,24 @@ label a {
   color: #fff;
   margin-top: 5%;
 }
+#btone {
+  height: 40px;
+  width: 120px;
+  border-radius: 0.7vh;
+}
+#bttwo {
+  height: 40px;
+  width: 120px;
+  border-radius: 0.7vh;
+}
+.but {
+  margin: auto;
+}
+.a {
+  position: relative !important;
+}
+#eone {
+  position: absolute;
+  right: 5%;
+  display: inline-block;
+}
