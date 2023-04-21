@@ -7,18 +7,22 @@ body {
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  margin: 0%;
+  padding: 0%;
 }
 .box {
+  background-color: rgb(255, 255, 255, 0.15);
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 90vh;
+  min-height: 100vh;
 }
 .container {
   width: 350px;
   display: flex;
   flex-direction: column;
   padding: 0 15px 0 15px;
+  justify-content: center;
 }
 span {
   color: #fff;
@@ -70,17 +74,22 @@ i {
   box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
 }
 .two-col {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   color: #fff;
   font-size: small;
   margin-top: 10px;
 }
 .one {
-  display: flex;
+  display: inline-block;
+}
+.two {
+  float: right;
 }
 label a {
   text-decoration: none;
   color: #fff;
+}
+.sign-up-text {
+  text-align: center;
+  color: #fff;
+  margin-top: 5%;
 }
